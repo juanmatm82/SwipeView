@@ -118,6 +118,7 @@
     _scrollView.showsVerticalScrollIndicator = NO;
     _scrollView.scrollsToTop = NO;
     _scrollView.clipsToBounds = NO;
+    _scrollView.translatesAutoresizingMaskIntoConstraints = NO;
     
     _decelerationRate = _scrollView.decelerationRate;
     _itemViews = [[NSMutableDictionary alloc] init];
